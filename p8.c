@@ -23,8 +23,8 @@ int main()
 					length = j-t1;
 					store1 = t1;
 					store2 = j;
-					t1=j;
 				}
+				t1=j;
 			}
 		}
 		if((store1+store2+1)%2!=0) bin[(store1+store2)/2]=i+1;
