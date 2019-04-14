@@ -34,7 +34,7 @@ void min_heapify(int *a,int i,int n)
 	if(smallest!=i)
 	{
 		swap(&a[i],&a[smallest]);
-		max_heapify(a,smallest,n);
+		min_heapify(a,smallest,n);
 	}
 }
 void build_min_heap(int *a,int n)
